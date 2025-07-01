@@ -47,6 +47,7 @@ Terminal-based AI agents and CLI tools for development automation and task manag
 | OpenHands | [GitHub](https://github.com/All-Hands-AI/OpenHands) | AI software development agent for terminal | Full development capabilities; open-source; no Docker required | Complex setup; single-user only; requires powerful models |
 | OpenCode | [GitHub](https://github.com/opencode-ai/opencode) | Provider-agnostic AI coding agent | Terminal-first design; supports multiple AI providers; LSP integration | Early stage; Go-based; limited documentation |
 | Task Master AI | [GitHub](https://github.com/brandongalang/task-master-ai) | Task extraction & automation | Auto-creates to-dos; calendar/Asana integration | Over-automation risk; setup complexity |
+| Goose | [GitHub](https://github.com/block/goose) | Open-source AI development agent by Block | Beyond code suggestions; executes & tests code; works with any LLM; MCP support | Requires LLM API keys; resource intensive; newer project |
 
 ## Speech & Audio
 
@@ -67,6 +68,7 @@ Note-taking, knowledge management, and productivity platforms with AI integratio
 | Graphiti | [GitHub](https://github.com/graphiti-ai/graphiti) | Personal knowledge graph with memory | Vector-search notes; knowledge embedding; persistent memory | Early-stage; integration gaps |
 | Mem0 | [GitHub](https://github.com/mem0ai/mem0) | Memory layer for AI applications | Persistent memory; easy integration | Early-stage; limited enterprise features |
 | Claude Code Requirements Builder | [GitHub](https://github.com/brandongalang/claude-code-requirements-builder) | Generates structured requirements from prompts | Automates early spec writing; reduces ambiguity | Requires Claude API key; prompt quality sensitive |
+| Vibe Kanban | [Vibe](https://vibe.us) | Interactive whiteboard with Kanban features | Real-time collaboration; visual workflow; integrates with Jira/Trello | Hardware-dependent; enterprise pricing; primarily for teams |
 
 ## Experimental & Research
 
