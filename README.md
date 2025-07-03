@@ -69,6 +69,7 @@ Note-taking, knowledge management, and productivity platforms with AI integratio
 | Mem0 | [GitHub](https://github.com/mem0ai/mem0) | Memory layer for AI applications | Persistent memory; easy integration | Early-stage; limited enterprise features |
 | Claude Code Requirements Builder | [GitHub](https://github.com/brandongalang/claude-code-requirements-builder) | Generates structured requirements from prompts | Automates early spec writing; reduces ambiguity | Requires Claude API key; prompt quality sensitive |
 | Vibe Kanban | [Vibe](https://vibe.us) | Interactive whiteboard with Kanban features | Real-time collaboration; visual workflow; integrates with Jira/Trello | Hardware-dependent; enterprise pricing; primarily for teams |
+| Glass | [GitHub](https://github.com/pickle-com/glass) | Ambient AI assistant to explore | Real-time assistance; exploration-focused; ambient computing | Early experimental stage; limited documentation; requires setup |
 
 ## Experimental & Research
 
