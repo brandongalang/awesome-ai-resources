@@ -36,6 +36,8 @@ IDEs, coding assistants, and specialized development environments with AI integr
 | Claude Code | [Anthropic](https://docs.anthropic.com/en/docs/claude-code) | Claude optimized for code tasks | Handles complex code; good at step-by-step reasoning | Context limits; still hallucinates |
 | Cursor | [Cursor](https://cursor.com) | AI-first code editor (VS Code fork) | Deep codebase understanding; multi-file edits; excellent autocomplete | $20/month for Pro; requires internet; some features locked to custom models |
 | Genspark | [Genspark](https://genspark.ai) | Lightweight code assistant | VS Code integration; code suggestions | Narrow language focus; sporadic updates |
+| Serena | [GitHub](https://github.com/oraios/serena) | Enhanced Claude Code experience | Adds features to Claude Code; improved context handling | Requires Claude Code; additional setup needed |
+| RepoPrompt | [GitHub](https://github.com/id-2/repoprompt) | Repository context generator for AI | Optimized for Claude; XML formatting; file selection | CLI-only; manual file selection needed |
 
 ## Command Line & Automation
 
@@ -77,7 +79,6 @@ Cutting-edge tools and research projects that are still in active development or
 
 | Name | Link | Description | Pros | Cons |
 |------|------|-------------|------|------|
-| RepoPrompt | [GitHub](https://github.com/brandongalang/repo-prompt) | LLM-powered codebase search/summarizer | Instant code search; repo insights | Struggles with large repos; security considerations |
 | Context7 | [GitHub](https://github.com/upstash/context7) | Retrieval-augmented context framework for LLMs | Fully open-source; Upstash integration; simplifies RAG | Tied to Upstash; needs Vector DB setup; early-stage maturity |
 | SuperClaude | [GitHub](https://github.com/jjohare/SuperClaude) | Extended Claude fork with massive context | Huge system prompt; extensive capabilities | Unclear usage; complex setup; huge system prompt makes it hard to use immediately |
 
