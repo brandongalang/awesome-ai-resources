@@ -79,7 +79,7 @@ Cutting-edge tools and research projects that are still in active development or
 
 | Name | Link | Description | Pros | Cons |
 |------|------|-------------|------|------|
-| Context7 | [GitHub](https://github.com/upstash/context7) | Retrieval-augmented context framework for LLMs | Fully open-source; Upstash integration; simplifies RAG | Tied to Upstash; needs Vector DB setup; early-stage maturity |
+| Context7 | [GitHub](https://github.com/upstash/context7) | MCP server for up-to-date code documentation | Provides current docs to LLMs; prevents outdated code; works with Cursor/Cline | Upstash dependency; requires MCP setup; documentation-focused |
 | SuperClaude | [GitHub](https://github.com/jjohare/SuperClaude) | Extended Claude fork with massive context | Huge system prompt; extensive capabilities | Unclear usage; complex setup; huge system prompt makes it hard to use immediately |
 
 ## Developer Libraries & Frameworks
