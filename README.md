@@ -145,6 +145,7 @@ Tools and workflows for managing multiple AI coding agents in parallel, enabling
 | VibeTunnel Terminal | [steipete.me](https://steipete.me/posts/command-your-claude-code-army-reloaded) | Terminal tool for managing multiple Claude Code sessions | Automatic/manual title updates; clear session tracking; "Claude Code Army" workflow | Requires terminal management; limited to title tracking |
 | Conductor (Chorus) | [Chorus](https://chorus.sh/) | Multi-model AI chat aggregator by Charlie Holtz | Chat with multiple AI models; MCP support; compare outputs in real-time | Desktop app only; requires multiple API keys; Mac-focused |
 | Vibe Kanban | [Vibe Kanban](https://www.vibekanban.com/) | Kanban board for AI coding agent management | Git worktree integration; parallel task processing; prevents file conflicts | Early stage; open-source only; setup complexity |
+| TestSprite MCP | [Cursor Directory](https://cursor.directory/mcp/testsprite-mcp) | AI testing agent with MCP server for IDE integration | Autonomous test generation; parallel cloud execution; 42% → 93% code accuracy boost | Requires TestSprite account; testing-focused; early stage |
 | Magnet | [Magnet](https://www.magnet.run/) | AI-native workspace for building software | Integrated development workspace; AI-first design | Limited public information; early stage |
 
 ## Developer Libraries & Frameworks
