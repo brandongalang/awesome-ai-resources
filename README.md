@@ -6,10 +6,12 @@ A curated, opinionated list of AI tools, platforms, and libraries I use or track
 
 - [Conversational AI](#conversational-ai)
 - [Code & Development](#code--development)
+- [MCP Servers](#mcp-servers)
 - [Command Line & Automation](#command-line--automation)
 - [Speech & Audio](#speech--audio)
 - [Productivity & Knowledge](#productivity--knowledge)
 - [Experimental & Research](#experimental--research)
+- [Asynchronous Agent Workspaces](#asynchronous-agent-workspaces)
 - [Developer Libraries & Frameworks](#developer-libraries--frameworks)
 - [Contributing](#contributing)
 - [License](#license)
@@ -38,6 +40,59 @@ IDEs, coding assistants, and specialized development environments with AI integr
 | Genspark | [Genspark](https://genspark.ai) | Lightweight code assistant | VS Code integration; code suggestions | Narrow language focus; sporadic updates |
 | Serena | [GitHub](https://github.com/oraios/serena) | Enhanced Claude Code experience | Adds features to Claude Code; improved context handling | Requires Claude Code; additional setup needed |
 | RepoPrompt | [GitHub](https://github.com/id-2/repoprompt) | Repository context generator for AI | Optimized for Claude; XML formatting; file selection | CLI-only; manual file selection needed |
+
+## MCP Servers
+
+Model Context Protocol (MCP) servers that extend AI capabilities with specialized tools and integrations.
+
+### Browser & Testing
+
+| Name | Link | Description | Pros | Cons |
+|------|------|-------------|------|------|
+| Puppeteer MCP | [GitHub](https://github.com/modelcontextprotocol/servers) | Browser automation through Puppeteer | Real browser control; screenshot capture; JavaScript execution | Requires headless browser; resource intensive |
+| Playwright MCP | [GitHub](https://github.com/microsoft/playwright-mcp) | Browser automation using Playwright | Accessibility tree interaction; cross-browser; deterministic | Microsoft dependency; setup complexity |
+| Octomind MCP | [GitHub](https://github.com/OctoMind-dev/octomind-mcp) | E2E testing platform integration | Auto-test generation; failure analysis; auto-fix | Requires Octomind account; testing-focused only |
+
+### Context & Documentation
+
+| Name | Link | Description | Pros | Cons |
+|------|------|-------------|------|------|
+| Context7 | [GitHub](https://github.com/upstash/context7) | Live documentation and API reference | Up-to-date docs; prevents hallucination; version-specific | Upstash dependency; documentation-focused |
+| Consult7 | [GitHub](https://github.com/szeider/consult7) | Large context analysis via external LLMs | Handles massive codebases; multiple provider support | Requires high-context models; API costs |
+
+### Mobile & Device Integration
+
+| Name | Link | Description | Pros | Cons |
+|------|------|-------------|------|------|
+| Mobile MCP | [GitHub](https://github.com/mobile-next/mobile-mcp) | iOS/Android automation and testing | Real device control; emulator support; cross-platform | iOS support incomplete; device setup required |
+| React Native Debugger MCP | [GitHub](https://github.com/twodoorsdev/react-native-debugger-mcp) | React Native debugging integration | Metro bundler connection; live error tracking | React Native specific; requires RN setup |
+
+### Development & Project Management
+
+| Name | Link | Description | Pros | Cons |
+|------|------|-------------|------|------|
+| Taskmaster MCP | [GitHub](https://github.com/eyaltoledano/claude-task-master) | AI-powered task management system | PRD parsing; intelligent task breakdown; research mode | Requires multiple API keys; complex setup |
+| Linear MCP | [Linear](https://mcp.linear.app/sse) | Linear project management integration | Official Linear support; issue tracking; project updates | Linear account required; hosted service |
+
+### Memory & Search
+
+| Name | Link | Description | Pros | Cons |
+|------|------|-------------|------|------|
+| Memory MCP | [GitHub](https://github.com/doobidoo/mcp-memory-service) | Long-term memory with semantic search | ChromaDB integration; persistent context; semantic search | ChromaDB dependency; storage overhead |
+| ChunkHound | [GitHub](https://github.com/ofriw/chunkhound) | Semantic code search and RAG | Local-first; privacy-focused; regex + semantic search | Self-hosted embeddings; setup complexity |
+
+### AI & Media
+
+| Name | Link | Description | Pros | Cons |
+|------|------|-------------|------|------|
+| OpenAI Image MCP | [GitHub](https://github.com/SureScaleAI/openai-gpt-image-mcp) | Image generation and editing | GPT-4o vision; text-to-image; aspect ratio control | OpenAI API costs; image generation limits |
+| Interactive Feedback MCP | [GitHub](https://github.com/noopstudios/interactive-feedback-mcp) | Human-in-the-loop workflows | Reduces API calls; confirmation prompts; improved accuracy | Requires human interaction; workflow interruption |
+
+### Development Tools
+
+| Name | Link | Description | Pros | Cons |
+|------|------|-------------|------|------|
+| Cursor-DB MCP | [GitHub](https://github.com/jbdamask/cursor-db-mcp) | Cursor chat history and project access | SQLite database access; chat history exploration | Cursor-specific; privacy considerations |
 
 ## Command Line & Automation
 
@@ -79,8 +134,18 @@ Cutting-edge tools and research projects that are still in active development or
 
 | Name | Link | Description | Pros | Cons |
 |------|------|-------------|------|------|
-| Context7 | [GitHub](https://github.com/upstash/context7) | MCP server for up-to-date code documentation | Provides current docs to LLMs; prevents outdated code; works with Cursor/Cline | Upstash dependency; requires MCP setup; documentation-focused |
 | SuperClaude | [GitHub](https://github.com/jjohare/SuperClaude) | Extended Claude fork with massive context | Huge system prompt; extensive capabilities | Unclear usage; complex setup; huge system prompt makes it hard to use immediately |
+
+## Asynchronous Agent Workspaces
+
+Tools and workflows for managing multiple AI coding agents in parallel, enabling asynchronous development and orchestration.
+
+| Name | Link | Description | Pros | Cons |
+|------|------|-------------|------|------|
+| VibeTunnel Terminal | [steipete.me](https://steipete.me/posts/command-your-claude-code-army-reloaded) | Terminal tool for managing multiple Claude Code sessions | Automatic/manual title updates; clear session tracking; "Claude Code Army" workflow | Requires terminal management; limited to title tracking |
+| Conductor (Chorus) | [Chorus](https://chorus.sh/) | Multi-model AI chat aggregator by Charlie Holtz | Chat with multiple AI models; MCP support; compare outputs in real-time | Desktop app only; requires multiple API keys; Mac-focused |
+| Vibe Kanban | [Vibe Kanban](https://www.vibekanban.com/) | Kanban board for AI coding agent management | Git worktree integration; parallel task processing; prevents file conflicts | Early stage; open-source only; setup complexity |
+| Magnet | [Magnet](https://www.magnet.run/) | AI-native workspace for building software | Integrated development workspace; AI-first design | Limited public information; early stage |
 
 ## Developer Libraries & Frameworks
 
