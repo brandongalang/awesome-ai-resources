@@ -40,6 +40,7 @@ IDEs, coding assistants, and specialized development environments with AI integr
 | Genspark | [Genspark](https://genspark.ai) | Lightweight code assistant | VS Code integration; code suggestions | Narrow language focus; sporadic updates |
 | Serena | [GitHub](https://github.com/oraios/serena) | Enhanced Claude Code experience | Adds features to Claude Code; improved context handling | Requires Claude Code; additional setup needed |
 | RepoPrompt | [GitHub](https://github.com/id-2/repoprompt) | Repository context generator for AI | Optimized for Claude; XML formatting; file selection | CLI-only; manual file selection needed |
+| Claude Code Specs Generator | [GitHub](https://github.com/kellemar/claude-code-specs-generator) | AWS Kiro spec approach for Claude Code | Generates structured specs; follows AWS best practices; improves code quality | Requires setup; AWS-specific methodology |
 
 ## MCP Servers
 
