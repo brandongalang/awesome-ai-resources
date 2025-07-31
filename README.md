@@ -53,6 +53,7 @@ Model Context Protocol (MCP) servers that extend AI capabilities with specialize
 | Puppeteer MCP | [GitHub](https://github.com/modelcontextprotocol/servers) | Browser automation through Puppeteer | Real browser control; screenshot capture; JavaScript execution | Requires headless browser; resource intensive |
 | Playwright MCP | [GitHub](https://github.com/microsoft/playwright-mcp) | Browser automation using Playwright | Accessibility tree interaction; cross-browser; deterministic | Microsoft dependency; setup complexity |
 | Octomind MCP | [GitHub](https://github.com/OctoMind-dev/octomind-mcp) | E2E testing platform integration | Auto-test generation; failure analysis; auto-fix | Requires Octomind account; testing-focused only |
+| Stagehand MCP | [GitHub](https://github.com/browserbase/mcp-server-browserbase) | AI browser automation with Browserbase | Cloud browser control; Gemini 2.0 Flash integration; production-ready | Requires Browserbase account; API key needed; cloud dependency |
 
 ### Context & Documentation
 
@@ -74,6 +75,7 @@ Model Context Protocol (MCP) servers that extend AI capabilities with specialize
 |------|------|-------------|------|------|
 | Taskmaster MCP | [GitHub](https://github.com/eyaltoledano/claude-task-master) | AI-powered task management system | PRD parsing; intelligent task breakdown; research mode | Requires multiple API keys; complex setup |
 | Linear MCP | [Linear](https://mcp.linear.app/sse) | Linear project management integration | Official Linear support; issue tracking; project updates | Linear account required; hosted service |
+| mcp-use | [GitHub](https://github.com/mcp-use/mcp-use) | Universal MCP server connector and agent builder | Connect any LLM to any MCP server; multi-server agent support; open source | Python/TypeScript specific; requires LangChain; early stage |
 
 ### Memory & Search
 
