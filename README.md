@@ -41,6 +41,7 @@ IDEs, coding assistants, and specialized development environments with AI integr
 | Serena | [GitHub](https://github.com/oraios/serena) | Enhanced Claude Code experience | Adds features to Claude Code; improved context handling | Requires Claude Code; additional setup needed |
 | RepoPrompt | [GitHub](https://github.com/id-2/repoprompt) | Repository context generator for AI | Optimized for Claude; XML formatting; file selection | CLI-only; manual file selection needed |
 | Claude Code Specs Generator | [GitHub](https://github.com/kellemar/claude-code-specs-generator) | AWS Kiro spec approach for Claude Code | Generates structured specs; follows AWS best practices; improves code quality | Requires setup; AWS-specific methodology |
+| Claude Code Proxy | [GitHub](https://github.com/fuergaosi233/claude-code-proxy) | Proxy server for Claude Code with OpenAI-compatible APIs | Multi-provider support; full API compatibility; streaming responses; function calling | Requires proxy setup; additional complexity layer |
 
 ## MCP Servers
 
