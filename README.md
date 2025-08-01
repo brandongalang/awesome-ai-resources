@@ -96,6 +96,7 @@ Model Context Protocol (MCP) servers that extend AI capabilities with specialize
 | Name | Link | Description | Pros | Cons |
 |------|------|-------------|------|------|
 | Cursor-DB MCP | [GitHub](https://github.com/jbdamask/cursor-db-mcp) | Cursor chat history and project access | SQLite database access; chat history exploration | Cursor-specific; privacy considerations |
+| Octocode MCP | [Octocode](https://octocode.muvon.io/) | AI-powered code intelligence and repository analysis | Advanced GitHub/npm exploration; intelligent caching; persistent memory; semantic code search | Requires API keys; complex setup for advanced features |
 
 ## Command Line & Automation
 
