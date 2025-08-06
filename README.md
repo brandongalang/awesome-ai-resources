@@ -162,6 +162,7 @@ APIs, SDKs, and underlying technologies for building AI-powered applications and
 |------|------|-------------|------|------|
 | DSPy | [GitHub](https://github.com/stanfordnlp/dspy) | Data-science pipelines & feature engineering | Clean API; easy to integrate; accelerates ML | Small community; minimal maintenance |
 | BAML | [GitHub](https://github.com/BoundaryML/baml) | Bayesian ML / AML framework | Strong uncertainty quantification; modern design | Steep learning curve; niche use-cases |
+| Prompt-Kit Primitives | [Prompt-Kit](https://www.prompt-kit.com/primitives) | Fullstack building blocks for AI applications | Pre-built UI components; Vercel AI SDK integration; easy installation via shadcn registry | Requires Vercel AI SDK; limited primitive selection currently |
 
 ## Contributing
 
