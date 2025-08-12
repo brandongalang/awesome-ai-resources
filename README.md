@@ -109,6 +109,7 @@ Terminal-based AI agents and CLI tools for development automation and task manag
 | OpenHands | [GitHub](https://github.com/All-Hands-AI/OpenHands) | AI software development agent for terminal | Full development capabilities; open-source; no Docker required | Complex setup; single-user only; requires powerful models |
 | OpenCode | [GitHub](https://github.com/opencode-ai/opencode) | Provider-agnostic AI coding agent | Terminal-first design; supports multiple AI providers; LSP integration | Early stage; Go-based; limited documentation |
 | Crush CLI | [GitHub](https://github.com/crush-dev/crush) | Enhanced OpenCode with sub-agent support | Same codebase as OpenCode; sub-agent orchestration; advanced workflow management | Early stage; additional complexity; documentation may lag behind features |
+| VibeKit CLI | [GitHub](https://github.com/superagent-ai/vibekit) | Secure sandbox wrapper for coding agents | Supports Claude/Gemini/Codex; sensitive data redaction; Docker isolation; fully offline | Requires Docker; additional abstraction layer; sandbox overhead |
 | Task Master AI | [GitHub](https://github.com/brandongalang/task-master-ai) | Task extraction & automation | Auto-creates to-docs; calendar/Asana integration | Over-automation risk; setup complexity |
 | Goose | [GitHub](https://github.com/block/goose) | Open-source AI development agent by Block | Beyond code suggestions; executes & tests code; works with any LLM; MCP support | Requires LLM API keys; resource intensive; newer project |
 
