@@ -29,12 +29,12 @@ General-purpose conversational AI models and interfaces for reasoning, research,
 
 | Rating | Name | Link | Description | Pros | Cons |
 |--------|------|------|-------------|------|------|
-| ⭐⭐⭐ | ChatGPT | [OpenAI](https://openai.com/chatgpt) | General-purpose LLM via web & API | Huge plugin ecosystem; strong reasoning; easy to use | Closed-source; data residency concerns; subscription cost |
-| ⭐⭐⭐ | Claude | [Anthropic](https://claude.ai) | Safety-focused conversational AI | Excellent guardrails; long context; thoughtful responses | Fewer integrations; pricing varies; slower at times |
-| ⭐⭐⭐ | Claude Desktop | [Anthropic](https://claude.ai/download) | Native app experience for Claude | Local windowed app; faster access; system integration | Platform-dependent; feature parity unclear |
-| ⭐⭐⭐ | Gemini | [Google Gemini](https://gemini.google.com) | Multimodal Google LLM | Tight Workspace integration; vision+text support | Opaque pricing; limited 3rd-party plugins |
+| ⭐⭐⭐ | ChatGPT | [OpenAI](https://openai.com/chatgpt) | General-purpose LLM via web & API | General all-rounder with tremendous value; great UX; safe choice; access to Codex CLI, async web agent, Sora, VideoGen, Deep Research, Agent Code | Not best for setting up generalized agents; closed-source; data residency concerns |
+| ⭐⭐⭐ | Claude | [Anthropic](https://claude.ai) | Safety-focused conversational AI | Access to Claude Code on subscription; broader access to connectors and MCP tools (native web connectors, custom desktop ones) | Fewer integrations; pricing varies; slower at times |
+| ⭐⭐⭐ | Claude Desktop | [Anthropic](https://claude.ai/download) | Native app experience for Claude | Setting up agents in React loop is incredibly easy; broader MCP tool access; system integration | Platform-dependent; feature parity unclear |
+| ⭐⭐⭐ | Gemini | [Google Gemini](https://gemini.google.com) | Multimodal Google LLM | Pretty good app experience; strong models; Canvas tool very effective; Deep Research works well; Veo 3 image generation excellent | Agent implementation quite bad outside of code generation, deep research, and chat |
 | ⭐⭐⭐ | Gemini Mobile App | [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.bard) / [App Store](https://apps.apple.com/app/google-gemini/id6477247706) | Mobile version of Gemini | Native mobile experience; voice input; camera integration | Mobile limitations; data usage on cellular |
-| ⭐⭐⭐ | AI Studio | [Google AI Studio](https://aistudio.google.com) | Google's AI experimentation platform | Free tier; prompt engineering tools; model comparison | Google account required; limited model selection |
+| ⭐⭐⭐ | AI Studio | [Google AI Studio](https://aistudio.google.com) | Google's AI experimentation platform | Better than mobile apps; access to all models and developer settings/API; build functionality like Vercel V0 | Google account required; limited model selection |
 | ⭐⭐⭐ | Granola AI | [Granola](https://granola.ai) | Enterprise-grade chat layer | Web embeds; analytics; fine-tunable | New entrant; vendor lock-in risk |
 | ⭐⭐⭐ | NotebookLM | [Google NotebookLM](https://notebooklm.google.com) | Research-focused assistant | Cite-able snippets; doc-grounded answers | Early access; limited customization; privacy questions |
 
@@ -51,6 +51,9 @@ IDEs, coding assistants, and specialized development environments with AI integr
 | ⭐ | RepoPrompt | [GitHub](https://github.com/id-2/repoprompt) | Repository context generator for AI | Optimized for Claude; XML formatting; file selection | CLI-only; manual file selection needed |
 | 📝 | Claude Code Specs Generator | [GitHub](https://github.com/kellemar/claude-code-specs-generator) | AWS Kiro spec approach for Claude Code | Generates structured specs; follows AWS best practices; improves code quality | Requires setup; AWS-specific methodology |
 | 📝 | Claude Code Proxy | [GitHub](https://github.com/fuergaosi233/claude-code-proxy) | Proxy server for Claude Code with OpenAI-compatible APIs | Multi-provider support; full API compatibility; streaming responses; function calling | Requires proxy setup; additional complexity layer |
+| ⭐⭐⭐ | Vercel V0 | [V0](https://v0.app/) | AI-powered UI generator for React components | Natural language to code; supports multiple frameworks; integrates with Vercel; agentic; one-click deployment | Limited to React/web; requires Vercel ecosystem |
+| ⭐⭐⭐ | Replit | [Replit](https://replit.com/) | AI-powered coding platform with Replit Agent | No-setup development; 50+ languages; real-time collaboration; one-click deployment; AI agent builds full apps | Limited customization vs traditional IDEs; subscription required for full features |
+| ⭐⭐⭐ | Lovable | [Lovable](https://lovable.dev/) | AI app builder using chat interface | Natural language to full-stack apps; React/Tailwind/Vite; instant deployment; screenshot to code | Alpha stage for backend features; limited to web applications |
 
 ## MCP Servers
 
@@ -121,6 +124,7 @@ Terminal-based AI agents and CLI tools for development automation and task manag
 | 📝 | VibeKit CLI | [GitHub](https://github.com/superagent-ai/vibekit) | Secure sandbox wrapper for coding agents | Supports Claude/Gemini/Codex; sensitive data redaction; Docker isolation; fully offline | Requires Docker; additional abstraction layer; sandbox overhead |
 | 📝 | Task Master AI | [GitHub](https://github.com/brandongalang/task-master-ai) | Task extraction & automation | Auto-creates to-docs; calendar/Asana integration | Over-automation risk; setup complexity |
 | ⭐⭐ | Goose | [GitHub](https://github.com/block/goose) | Open-source AI development agent by Block | Beyond code suggestions; executes & tests code; works with any LLM; MCP support | Requires LLM API keys; resource intensive; newer project |
+| ⭐⭐ | Codex CLI | [GitHub](https://github.com/openai/codex) | Lightweight coding agent from OpenAI that runs in terminal | Local execution; multimodal inputs; approval modes; ChatGPT integration; open-source | Experimental Windows support; requires ChatGPT Plus/Pro or API key |
 
 ## Speech & Audio
 
@@ -159,7 +163,7 @@ Tools and workflows for managing multiple AI coding agents in parallel, enabling
 
 | Rating | Name | Link | Description | Pros | Cons |
 |--------|------|------|-------------|------|------|
-| ⭐⭐⭐ | Terragon Labs | [Terragon Labs](https://www.terragonlabs.com/) | Background agents for Claude Code with parallel execution | Run multiple agents in parallel; isolated virtual environments; git-based workflows; multi-platform access | Beta stage; requires Claude Max subscription; cloud dependency |
+| ⭐⭐⭐ | Terragon Labs | [Terragon Labs](https://www.terragonlabs.com/) | Background agents for Claude Code with parallel execution | Great option for async Claude Code; systems across mobile, browser, and sandbox; run multiple agents in parallel | Beta stage; requires Claude Max subscription; cloud dependency |
 | 📝 | VibeTunnel Terminal | [steipete.me](https://steipete.me/posts/command-your-claude-code-army-reloaded) | Terminal tool for managing multiple Claude Code sessions | Automatic/manual title updates; clear session tracking; "Claude Code Army" workflow | Requires terminal management; limited to title tracking |
 | ⭐⭐ | Conductor (Chorus) | [Chorus](https://chorus.sh/) | Multi-model AI chat aggregator by Charlie Holtz | Chat with multiple AI models; MCP support; compare outputs in real-time | Desktop app only; requires multiple API keys; Mac-focused |
 | 📝 | Vibe Kanban | [Vibe Kanban](https://www.vibekanban.com/) | Kanban board for AI coding agent management | Git worktree integration; parallel task processing; prevents file conflicts | Early stage; open-source only; setup complexity |
