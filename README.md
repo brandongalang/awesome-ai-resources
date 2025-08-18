@@ -48,7 +48,7 @@ IDEs, coding assistants, and specialized development environments with AI integr
 | ⭐⭐⭐ | Cursor | [Cursor](https://cursor.com) | AI-first code editor (VS Code fork) | Deep codebase understanding; multi-file edits; excellent autocomplete | $20/month for Pro; requires internet; some features locked to custom models |
 | 📝 | Genspark | [Genspark](https://genspark.ai) | Lightweight code assistant | VS Code integration; code suggestions | Narrow language focus; sporadic updates |
 | 📝 | Serena | [GitHub](https://github.com/oraios/serena) | Enhanced Claude Code experience | Adds features to Claude Code; improved context handling | Requires Claude Code; additional setup needed |
-| ⭐ | RepoPrompt | [GitHub](https://github.com/id-2/repoprompt) | Repository context generator for AI | Optimized for Claude; XML formatting; file selection | CLI-only; manual file selection needed |
+| ⭐ | RepoPrompt | [GitHub](https://github.com/id-2/repoprompt) | Repository context generator for AI | Optimized for Claude; XML formatting; file selection; seen really great things about it | CLI-only; manual file selection needed; don't code as much production code |
 | 📝 | Claude Code Specs Generator | [GitHub](https://github.com/kellemar/claude-code-specs-generator) | AWS Kiro spec approach for Claude Code | Generates structured specs; follows AWS best practices; improves code quality | Requires setup; AWS-specific methodology |
 | 📝 | Claude Code Proxy | [GitHub](https://github.com/fuergaosi233/claude-code-proxy) | Proxy server for Claude Code with OpenAI-compatible APIs | Multi-provider support; full API compatibility; streaming responses; function calling | Requires proxy setup; additional complexity layer |
 | ⭐⭐⭐ | Vercel V0 | [V0](https://v0.app/) | AI-powered UI generator for React components | Natural language to code; supports multiple frameworks; integrates with Vercel; agentic; one-click deployment | Limited to React/web; requires Vercel ecosystem |
@@ -117,7 +117,7 @@ Terminal-based AI agents and CLI tools for development automation and task manag
 
 | Rating | Name | Link | Description | Pros | Cons |
 |--------|------|------|-------------|------|------|
-| ⭐⭐ | Gemini CLI | [GitHub](https://github.com/google/generative-ai-cli) | Command-line interface for Gemini | Developer-friendly; scriptable interactions | In flux; needs API key; CLI complexity for novices |
+| ⭐⭐ | Gemini CLI | [GitHub](https://github.com/google/generative-ai-cli) | Command-line interface for Gemini | Developer-friendly; scriptable interactions; sometimes use for experimentation or simple agentic tasks (organizing files, scripts) | In flux; needs API key; CLI complexity for novices |
 | ⭐ | OpenHands | [GitHub](https://github.com/All-Hands-AI/OpenHands) | AI software development agent for terminal | Full development capabilities; open-source; no Docker required | Complex setup; single-user only; requires powerful models |
 | ⭐⭐ | OpenCode | [GitHub](https://github.com/opencode-ai/opencode) | Provider-agnostic AI coding agent | Terminal-first design; supports multiple AI providers; LSP integration | Early stage; Go-based; limited documentation |
 | ⭐⭐ | Crush CLI | [GitHub](https://github.com/crush-dev/crush) | Enhanced OpenCode with sub-agent support | Same codebase as OpenCode; sub-agent orchestration; advanced workflow management | Early stage; additional complexity; documentation may lag behind features |
@@ -125,6 +125,7 @@ Terminal-based AI agents and CLI tools for development automation and task manag
 | 📝 | Task Master AI | [GitHub](https://github.com/brandongalang/task-master-ai) | Task extraction & automation | Auto-creates to-docs; calendar/Asana integration | Over-automation risk; setup complexity |
 | ⭐⭐ | Goose | [GitHub](https://github.com/block/goose) | Open-source AI development agent by Block | Beyond code suggestions; executes & tests code; works with any LLM; MCP support | Requires LLM API keys; resource intensive; newer project |
 | ⭐⭐ | Codex CLI | [GitHub](https://github.com/openai/codex) | Lightweight coding agent from OpenAI that runs in terminal | Local execution; multimodal inputs; approval modes; ChatGPT integration; open-source | Experimental Windows support; requires ChatGPT Plus/Pro or API key |
+| ⭐⭐ | Qwen Code | [GitHub](https://github.com/QwenLM/qwen-code) | Command-line AI workflow tool adapted from Gemini CLI | 256K-1M token context; architecture analysis; test generation; git automation; open-source Apache 2.0 | Sometimes use for experimentation or simple agentic tasks (organizing files, scripts) |
 
 ## Speech & Audio
 
@@ -133,7 +134,7 @@ Voice-to-text transcription and audio processing tools for AI-powered dictation 
 | Rating | Name | Link | Description | Pros | Cons |
 |--------|------|------|-------------|------|------|
 | ⭐⭐⭐ | MacWhisper | [Gumroad](https://goodsnooze.gumroad.com/l/macwhisper) | Privacy-focused transcription app for macOS | On-device processing; meeting recording; speaker recognition; 100+ languages | macOS only; $39.99 one-time; requires 8GB+ RAM |
-| ⭐⭐ | SuperWhisper | [SuperWhisper](https://superwhisper.com) | AI-powered voice-to-text for macOS | System-wide dictation; context-aware; translation; works offline | macOS only; freemium model; limited free tier; random crashes/system compatibility issues |
+| ⭐⭐ | SuperWhisper | [SuperWhisper](https://superwhisper.com) | AI-powered voice-to-text for macOS | Worked great when it worked; system-wide dictation; context-aware; translation; works offline | Crashing was really bad - couldn't stop it; macOS only; freemium model |
 | 📝 | Wispr Flow | [Wispr Flow](https://wisprflow.ai/) | AI-powered voice dictation tool | 4x faster than typing; multi-language support; context-aware; works in any app | iOS/mobile focus; subscription model; requires internet |
 
 ## Productivity & Knowledge
@@ -165,7 +166,7 @@ Tools and workflows for managing multiple AI coding agents in parallel, enabling
 |--------|------|------|-------------|------|------|
 | ⭐⭐⭐ | Terragon Labs | [Terragon Labs](https://www.terragonlabs.com/) | Background agents for Claude Code with parallel execution | Great option for async Claude Code; systems across mobile, browser, and sandbox; run multiple agents in parallel | Beta stage; requires Claude Max subscription; cloud dependency |
 | 📝 | VibeTunnel Terminal | [steipete.me](https://steipete.me/posts/command-your-claude-code-army-reloaded) | Terminal tool for managing multiple Claude Code sessions | Automatic/manual title updates; clear session tracking; "Claude Code Army" workflow | Requires terminal management; limited to title tracking |
-| ⭐⭐ | Conductor (Chorus) | [Chorus](https://chorus.sh/) | Multi-model AI chat aggregator by Charlie Holtz | Chat with multiple AI models; MCP support; compare outputs in real-time | Desktop app only; requires multiple API keys; Mac-focused |
+| ⭐⭐ | Conductor (Chorus) | [Chorus](https://chorus.sh/) | Multi-model AI chat aggregator by Charlie Holtz | Chat with multiple AI models; MCP support; compare outputs in real-time | Haven't used much - it's local so not as obviously useful; usually just use terminal (Ghostty) |
 | 📝 | Vibe Kanban | [Vibe Kanban](https://www.vibekanban.com/) | Kanban board for AI coding agent management | Git worktree integration; parallel task processing; prevents file conflicts | Early stage; open-source only; setup complexity |
 | 📝 | TestSprite MCP | [Cursor Directory](https://cursor.directory/mcp/testsprite-mcp) | AI testing agent with MCP server for IDE integration | Autonomous test generation; parallel cloud execution; 42% → 93% code accuracy boost | Requires TestSprite account; testing-focused; early stage |
 | 📝 | Magnet | [Magnet](https://www.magnet.run/) | AI-native workspace for building software | Integrated development workspace; AI-first design | Limited public information; early stage |
@@ -180,6 +181,11 @@ APIs, SDKs, and underlying technologies for building AI-powered applications and
 | 📝 | BAML | [GitHub](https://github.com/BoundaryML/baml) | Bayesian ML / AML framework | Strong uncertainty quantification; modern design | Steep learning curve; niche use-cases |
 | 📝 | Prompt-Kit Primitives | [Prompt-Kit](https://www.prompt-kit.com/primitives) | Fullstack building blocks for AI applications | Pre-built UI components; Vercel AI SDK integration; easy installation via shadcn registry | Requires Vercel AI SDK; limited primitive selection currently |
 | ⭐ | TensorZero | [GitHub](https://github.com/tensorzero/tensorzero) | Open-source LLM infrastructure stack with data flywheel | Complete LLM lifecycle management; dynamic in-context learning; self-hosted; built-in A/B testing; ClickHouse analytics | Requires infrastructure setup; ClickHouse dependency; complex for simple use cases |
+| ⭐⭐ | LangGraph/LangChain | [LangChain](https://www.langchain.com/langgraph) | Graph-based agent framework with state management | Low-level orchestration; multi-agent workflows; human-in-the-loop; built-in persistence; flexible control flows | Complex for simple use cases; learning curve; typically just use Claude Code instead |
+| ⭐⭐⭐ | PydanticAI | [Pydantic AI](https://ai.pydantic.dev/) | Python agent framework built by Pydantic team | Type-safe responses; Python-centric design; model-agnostic; dependency injection; streaming support | New framework; typically just use Claude Code instead |
+| ⭐⭐⭐ | Google ADK | [Google ADK](https://google.github.io/adk-docs/) | Google's Agent Development Kit for multi-agent systems | Code-first development; multi-agent orchestration; Google Cloud integration; model flexibility; streaming support | Google ecosystem focus; typically just use Claude Code instead |
+| ⭐ | Mastra | [Mastra](https://mastra.ai/) | TypeScript AI framework from Gatsby team | Batteries-included TypeScript; workflows, agents, RAG; type-safe integrations; local playground | TypeScript-only; relatively new; typically just use Claude Code instead |
+| ⭐⭐ | PocketFlow | [GitHub](https://github.com/The-Pocket/PocketFlow) | Minimalist 100-line LLM framework | Zero dependencies; zero bloat; graph + shared store architecture; agentic coding | Very minimal; limited features; typically just use Claude Code instead |
 
 ## Contributing
 
