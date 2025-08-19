@@ -76,14 +76,14 @@ Model Context Protocol (MCP) servers that extend AI capabilities with specialize
 ### Mobile & Device Integration
 
 | Functional | Would Use | Name | Link | Commentary |
-|------------|-----------|------|------||-----------|
+|------------|-----------|------|------|-----------|
 | 📝 | 📝 | Mobile MCP | [GitHub](https://github.com/mobile-next/mobile-mcp) | iOS/Android automation and testing - haven't tested yet. |
 | 📝 | 📝 | React Native Debugger MCP | [GitHub](https://github.com/twodoorsdev/react-native-debugger-mcp) | React Native debugging integration - haven't tested yet. |
 
 ### Development & Project Management
 
 | Functional | Would Use | Name | Link | Commentary |
-|------------|-----------|------|------||-----------|
+|------------|-----------|------|------|-----------|
 | ⭐⭐⭐ | ⭐⭐⭐ | Taskmaster MCP | [GitHub](https://github.com/eyaltoledano/claude-task-master) | AI-powered task management system with PRD parsing, intelligent task breakdown, and research mode. |
 | 📝 | 📝 | Linear MCP | [Linear](https://mcp.linear.app/sse) | Linear project management integration - haven't tested yet. |
 | 📝 | 📝 | mcp-use | [GitHub](https://github.com/mcp-use/mcp-use) | Universal MCP server connector and agent builder - haven't tested yet. |
@@ -91,21 +91,21 @@ Model Context Protocol (MCP) servers that extend AI capabilities with specialize
 ### Memory & Search
 
 | Functional | Would Use | Name | Link | Commentary |
-|------------|-----------|------|------||-----------|
+|------------|-----------|------|------|-----------|
 | 📝 | 📝 | Memory MCP | [GitHub](https://github.com/doobidoo/mcp-memory-service) | Long-term memory with semantic search - haven't really used. |
 | 📝 | 📝 | ChunkHound | [GitHub](https://github.com/ofriw/chunkhound) | Semantic code search and RAG - haven't really used. |
 
 ### AI & Media
 
 | Functional | Would Use | Name | Link | Commentary |
-|------------|-----------|------|------||-----------|
+|------------|-----------|------|------|-----------|
 | 📝 | 📝 | OpenAI Image MCP | [GitHub](https://github.com/SureScaleAI/openai-gpt-image-mcp) | Image generation and editing - haven't used. |
 | 📝 | 📝 | Interactive Feedback MCP | [GitHub](https://github.com/noopstudios/interactive-feedback-mcp) | Human-in-the-loop workflows - haven't used. |
 
 ### Development Tools
 
 | Functional | Would Use | Name | Link | Commentary |
-|------------|-----------|------|------||-----------|
+|------------|-----------|------|------|-----------|
 | 📝 | 📝 | Cursor-DB MCP | [GitHub](https://github.com/jbdamask/cursor-db-mcp) | Cursor chat history and project access - haven't used. |
 | 📝 | 📝 | Octocode MCP | [Octocode](https://octocode.muvon.io/) | AI-powered code intelligence and repository analysis - haven't used. |
 
@@ -153,7 +153,7 @@ Note-taking, knowledge management, and productivity platforms with AI integratio
 Cutting-edge tools and research projects that are still in active development or experimental phases.
 
 | Functional | Would Use | Name | Link | Commentary |
-|------------|-----------|------|------||-----------|
+|------------|-----------|------|------|-----------|
 | ❌ | ❌ | SuperClaude | [GitHub](https://github.com/jjohare/SuperClaude) | Extended Claude fork with massive context - did not like it. Huge system prompt makes it hard to use immediately. |
 
 ## Asynchronous Agent Workspaces
@@ -161,7 +161,7 @@ Cutting-edge tools and research projects that are still in active development or
 Tools and workflows for managing multiple AI coding agents in parallel, enabling asynchronous development and orchestration.
 
 | Functional | Would Use | Name | Link | Commentary |
-|------------|-----------|------|------||-----------|
+|------------|-----------|------|------|-----------|
 | ⭐⭐⭐ | ⭐⭐⭐ | Terragon Labs | [Terragon Labs](https://www.terragonlabs.com/) | Great option for async Claude Code; systems across mobile, browser, and sandbox; run multiple agents in parallel. |
 | 📝 | 📝 | VibeTunnel Terminal | [steipete.me](https://steipete.me/posts/command-your-claude-code-army-reloaded) | Terminal tool for managing multiple Claude Code sessions - haven't tested. |
 | ⭐⭐⭐ | ⭐ | Conductor (Chorus) | [Chorus](https://chorus.sh/) | Haven't used much - it's local so not as obviously useful; usually just use terminal (Ghostty). Multi-model AI chat aggregator. |
