@@ -44,7 +44,7 @@ IDEs, coding assistants, and specialized development environments with AI integr
 |------------|-----------|------|------|-----------|
 | ⭐⭐⭐ | ⭐⭐⭐ | Claude Code | [Anthropic](https://docs.anthropic.com/en/docs/claude-code) | Handles complex code; good at step-by-step reasoning. My primary coding assistant. |
 | ⭐⭐⭐ | ⭐⭐⭐ | Cursor | [Cursor](https://cursor.com) | Deep codebase understanding; multi-file edits; excellent autocomplete. AI-first code editor with great features. |
-| ⭐⭐⭐ | ⭐⭐⭐ | Genspark | [Genspark](https://genspark.ai) | All-in-One AI Workspace with AI Slides, Sheets, Docs, and general-purpose AI agent capabilities. |
+| ⭐⭐⭐ | ⭐⭐⭐ | Genspark | [Genspark](https://genspark.ai) | Most underrated general agent/chat offering right now. All-in-One AI Workspace with AI Slides, Sheets, Docs, and general-purpose AI agent capabilities. |
 | 📝 | 📝 | Serena | [GitHub](https://github.com/oraios/serena) | Enhanced Claude Code experience - haven't really used it yet but adds features to Claude Code. |
 | 📝 | 📝 | RepoPrompt | [GitHub](https://github.com/id-2/repoprompt) | Seen really great things about it for repository context generation. Don't code as much production code to fully test. |
 | 📝 | 📝 | Claude Code Specs Generator | [GitHub](https://github.com/kellemar/claude-code-specs-generator) | AWS Kiro spec approach for Claude Code - haven't really used it. |
