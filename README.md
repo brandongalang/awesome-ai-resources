@@ -45,7 +45,7 @@ IDEs, coding assistants, and specialized development environments with AI integr
 | ⭐⭐⭐ | ⭐⭐⭐ | Claude Code | [Anthropic](https://docs.anthropic.com/en/docs/claude-code) | Handles complex code; good at step-by-step reasoning. My primary coding assistant. |
 | ⭐⭐⭐ | ⭐⭐⭐ | Cursor | [Cursor](https://cursor.com) | Deep codebase understanding; multi-file edits; excellent autocomplete. AI-first code editor with great features. |
 | ⭐⭐⭐ | ⭐⭐⭐ | Genspark | [Genspark](https://genspark.ai) | Most underrated general agent/chat offering right now. All-in-One AI Workspace with AI Slides, Sheets, Docs, and general-purpose AI agent capabilities. |
-| 📝 | 📝 | Serena | [GitHub](https://github.com/oraios/serena) | Enhanced Claude Code experience - haven't really used it yet but adds features to Claude Code. |
+| 📝 | 📝 | Serena | [GitHub](https://github.com/oraios/serena) | Powerful coding agent MCP server with semantic retrieval and editing capabilities - haven't really used it yet. Works with any MCP client. |
 | 📝 | 📝 | RepoPrompt | [GitHub](https://github.com/id-2/repoprompt) | Seen really great things about it for repository context generation. Don't code as much production code to fully test. |
 | 📝 | 📝 | Claude Code Specs Generator | [GitHub](https://github.com/kellemar/claude-code-specs-generator) | AWS Kiro spec approach for Claude Code - haven't really used it. |
 | 📝 | 📝 | Claude Code Proxy | [GitHub](https://github.com/fuergaosi233/claude-code-proxy) | Proxy server for Claude Code with OpenAI-compatible APIs - haven't really used it. |
@@ -184,14 +184,6 @@ APIs, SDKs, and underlying technologies for building AI-powered applications and
 | 📝 | 📝 | Mastra | [Mastra](https://mastra.ai/) | TypeScript AI framework from Gatsby team - haven't really used it much. |
 | ⭐⭐ | ⭐⭐⭐ | PocketFlow | [GitHub](https://github.com/The-Pocket/PocketFlow) | Very simple workflow but very fast and very simple to mock stuff up if you want just simple LLM workflows. |
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. When adding new tools:
-
-1. Follow the existing table format
-2. Include honest pros and cons
-3. Verify links are working
-4. Categorize appropriately
 
 ## License
 
