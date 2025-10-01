@@ -177,6 +177,7 @@ APIs, SDKs, and underlying technologies for building AI-powered applications and
 | ⭐⭐⭐ | ⭐⭐⭐ | DSPy | [GitHub](https://github.com/stanfordnlp/dspy) | Data-science pipelines & feature engineering. Clean API; easy to integrate; accelerates ML. |
 | 📝 | 📝 | BAML | [GitHub](https://github.com/BoundaryML/baml) | Bayesian ML / AML framework - haven't really tested. |
 | 📝 | 📝 | Prompt-Kit Primitives | [Prompt-Kit](https://www.prompt-kit.com/primitives) | Fullstack building blocks for AI applications - haven't really tested. |
+| 📝 | 📝 | Parlant | [GitHub](https://github.com/emcie-co/parlant) | Python framework for building rule-compliant AI agents with guaranteed compliance and behavioral modeling - haven't tested yet. |
 | ⭐ | ⭐ | TensorZero | [GitHub](https://github.com/tensorzero/tensorzero) | Open-source LLM infrastructure stack with data flywheel. Complete LLM lifecycle management but complex for simple use cases. |
 | ⭐⭐ | ⭐⭐⭐ | LangGraph/LangChain | [LangChain](https://www.langchain.com/langgraph) | Documentation can be rough, abstractions are hard to understand, code is convoluted, but lots of cookbooks and examples. Pretty standard. Typically just use Claude Code instead. |
 | ⭐⭐⭐ | ⭐⭐⭐ | PydanticAI | [Pydantic AI](https://ai.pydantic.dev/) | Python agent framework built by Pydantic team. Type-safe responses; Python-centric design; model-agnostic. Typically just use Claude Code instead. |
