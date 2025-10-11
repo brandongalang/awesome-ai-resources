@@ -18,6 +18,7 @@ Two-dimensional rating system to separate objective functionality from personal 
 - [Productivity & Knowledge](#productivity--knowledge)
 - [Experimental & Research](#experimental--research)
 - [Asynchronous Agent Workspaces](#asynchronous-agent-workspaces)
+- [Headless Orchestration Dev Workflow](#headless-orchestration-dev-workflow)
 - [Developer Libraries & Frameworks](#developer-libraries--frameworks)
 - [Contributing](#contributing)
 - [License](#license)
@@ -168,6 +169,81 @@ Tools and workflows for managing multiple AI coding agents in parallel, enabling
 | 📝 | 📝 | TestSprite MCP | [Cursor Directory](https://cursor.directory/mcp/testsprite-mcp) | AI testing agent with MCP server for IDE integration - haven't tested. |
 | 📝 | 📝 | Magnet | [Magnet](https://www.magnet.run/) | AI-native workspace for building software - haven't tested. |
 
+## Headless Orchestration Dev Workflow
+
+A structured methodology for AI-assisted software development using autonomous agents with clear role separation and Test-Driven Development (TDD).
+
+### Overview
+
+**Three-Role Architecture:**
+- **Human**: Sets strategic direction, provides requirements, approves PRs and deployments
+- **Droid Assistant (AI Chat)**: Plans work, writes specs in `tasks/pending/`, reviews autonomous agent output, coordinates workflow
+- **Droid Exec (Autonomous Agent)**: Executes specs autonomously following TDD (tests first), implements code following conventions
+
+**Workflow:** Human directs → Droid Assistant specs → Droid Exec executes → Droid Assistant reviews → Human approves
+
+### Core Principles
+
+1. **TDD Mandatory**: Write tests FIRST, then implementation. Minimum 80% coverage for all new code.
+2. **Never Write Code Directly**: AI assistants delegate to autonomous agents rather than writing code themselves. This ensures proper TDD adherence and higher quality.
+3. **Task-Based Specs**: Create detailed specs in `tasks/pending/` before implementation. Specs should focus on WHAT (requirements, tests, success criteria) not HOW (implementation details).
+4. **Git Workflow**: Default to `main` branch for quick iterations. Feature branches MAX 24 hours if needed.
+5. **Autonomy Levels**:
+   - `--auto low`: File operations only
+   - `--auto medium`: File operations + commands (npm, pytest, build tools)
+   - `--auto high`: Production operations (git push, deploys)
+
+### Project Structure
+
+```
+src/
+├── components/        # Application components
+├── services/         # Business logic and API clients
+├── contexts/         # State management
+├── pages/           # Page components
+└── __tests__/       # Tests mirror src/ structure
+
+tasks/
+├── pending/         # Not started or in progress
+├── completed/       # Done (dated: YYYY-MM-DD_task_name.md)
+└── templates/       # Spec templates
+
+AGENTS.md            # This workflow guide (for AI agents)
+TECHNICAL.md         # Project status (what's done, what's next, blockers)
+```
+
+### Key Benefits
+
+- **Enforced Quality**: TDD-first approach prevents untested code from reaching production
+- **Clear Separation**: Each role has distinct responsibilities preventing overlap and confusion
+- **Autonomous Execution**: Specs enable autonomous agents to work independently following established patterns
+- **Traceable Work**: Task specs in version control create audit trail of decisions and implementation
+- **Scalable**: Pattern works for solo developers or teams with multiple autonomous agents
+
+### Implementation Example
+
+```bash
+# 1. Create spec (Droid Assistant)
+vim tasks/pending/user_authentication.md
+
+# 2. Commit spec FIRST
+git commit -m "spec: add user authentication spec"
+
+# 3. Delegate to autonomous agent
+droid exec --auto medium -f tasks/pending/user_authentication.md
+
+# 4. Review output and commit (Droid Assistant)
+git commit -m "feat: implement JWT authentication (via droid exec)
+
+Co-authored-by: factory-droid[bot] <138933559+factory-droid[bot]@users.noreply.github.com>"
+```
+
+### Resources
+
+- **Full Workflow Guide**: [AGENTS.md Template](https://gist.github.com/dctmfoo/d8efa173bd55921694e1727132946fb8)
+- **Best Practices**: Read AGENTS.md first every session; keep specs focused; always run tests before committing
+- **Integration**: Works with any AI coding assistant (Claude Code, Cursor, Copilot) and autonomous agents (Goose, OpenHands, etc.)
+
 ## Developer Libraries & Frameworks
 
 APIs, SDKs, and underlying technologies for building AI-powered applications and workflows.
@@ -184,6 +260,7 @@ APIs, SDKs, and underlying technologies for building AI-powered applications and
 | ⭐⭐⭐ | ⭐⭐⭐ | Google ADK | [Google ADK](https://google.github.io/adk-docs/) | Google's Agent Development Kit for multi-agent systems. Code-first development with Google Cloud integration. Typically just use Claude Code instead. |
 | 📝 | 📝 | Mastra | [Mastra](https://mastra.ai/) | TypeScript AI framework from Gatsby team - haven't really used it much. |
 | ⭐⭐ | ⭐⭐⭐ | PocketFlow | [GitHub](https://github.com/The-Pocket/PocketFlow) | Very simple workflow but very fast and very simple to mock stuff up if you want just simple LLM workflows. |
+| ⭐⭐⭐ | ⭐⭐⭐ | DeepEval | [GitHub](https://github.com/confident-ai/deepeval) | Open-source LLM evaluation framework for testing and evaluating LLM outputs. Pytest-like interface with metrics for G-Eval, hallucination, answer relevancy, RAGAS. Supports RAG pipelines, chatbots, and AI agents. |
 
 
 ## License
